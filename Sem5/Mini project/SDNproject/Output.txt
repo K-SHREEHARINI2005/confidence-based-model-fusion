@@ -1,0 +1,39 @@
+Controllers = 6
+Trained model for controller 0
+Trained model for controller 1
+Trained model for controller 2
+Trained model for controller 3
+Trained model for controller 4
+Trained model for controller 5
+Saved errors_matrix.csv
+Saved line graph: C:\Users\aaksh\IdeaProjects\SDNproject\avg_errors_line.png
+Source 0 suspects: [5]
+Source 1 suspects: [1, 4]
+Source 2 suspects: [2]
+Source 3 suspects: [0, 1]
+Source 4 suspects: [1, 4]
+Source 5 suspects: [1]
+Vote frequencies: {0=1, 1=4, 2=1, 4=2, 5=1}
+Final suspects (Original TAPD): [0, 1, 2, 4, 5]
+Model confidence levels: [0.570290594398783, 0.316697042672342, 0.5082654500326558, 0.5364256102675813, 0.6444349830427609, 0.3709022290339683]
+Confidence-weighted vote frequencies: {0=0.5364256102675813, 1=1.8684598650166526, 2=0.5082654500326558, 4=0.9611320257151029, 5=0.570290594398783}
+Adaptive CBMF threshold (info) = 0.454
+Auto-detected poisoned controllers = [1]
+Automatically set ground truth (for testing) = [1]
+
+=== PERFORMANCE COMPARISON (Auto Detection Enabled) ===
+--------------------------------------------------------------
+Metric          Original TAPD   Auto-Detected CBMF  
+--------------------------------------------------------------
+Accuracy        0.3333          1.0000              
+Precision       0.2000          1.0000              
+Recall          1.0000          1.0000              
+F1 Score        0.3333          1.0000              
+--------------------------------------------------------------
+Auto-detected CBMF successfully identifies poisoned controllers.
+
+Metrics saved → cost_results.csv
+
+Saved metrics graph: C:\Users\aaksh\IdeaProjects\SDNproject\metrics_graph.png
+=== END COST & METRICS ANALYSIS ===
+=== TAPD SDN finished ===
